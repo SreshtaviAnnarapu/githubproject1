@@ -1,0 +1,16 @@
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        // Declare and initialize a number for which we will print the multiplication table
+        int number = 5;
+
+        // Print a header for the table
+        System.out.println("Multiplication Table for " + number);
+
+        // Loop to generate the multiplication table
+        for (int i = 1; i <= 10; i++) {
+            // Print each multiplication result
+            System.out.println(number + " x " + i + " = " + (number * i));
+        }
+    }
+}
+
